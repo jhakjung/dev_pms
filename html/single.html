@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .container {
-            max-width: 800px;
+            max-width: 1000px;
         }
         .footer {
             text-align: center;
@@ -33,6 +33,13 @@
         a.my_badge {
             color: white;
             text-decoration: none;
+        }
+        .card-body.card__group .badge {
+            margin-left: 0.5px;
+            margin-right: 0.5px;
+
+            margin-top: 2px;
+            margin-bottom: 2px;
         }
     </style>
 </head>
@@ -63,14 +70,12 @@
                         <i class="bi bi-folder-fill"></i> 프로젝트단계
                     </div>
                     <div class="card-body card__group">
-                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps01">계약 (4)</a></span>
-                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps02">착수 (7)</a></span>
-                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps03">현장조사/분석 (18)</a></span>
-                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps04">상세설계/변경 (13)</a></span>
-                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps05">제작/납품 (3)</a></span>
-                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps06">설치/연동 (1)</a></span>
-                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps07">시험/시운전 (1)</a></span>
+                        <span class="fs-7 badge badge__blue"><a class="my_badge" href="#">계약 (4)</a></span>
+                        <span class="fs-7 badge badge__blue"><a class="my_badge" href="#">착수 (7)</a></span>
+                        <span class="fs-7 badge badge__blue"><a class="my_badge" href="#">현장조사/분석 (18)</a></span>
+                        <span class="fs-7 badge badge__blue"><a class="my_badge" href="#">상세설계/변경 (13)</a></span>
                     </div>
+
                 </div>
 
                 <!-- Additional cards for other sections can be added similarly -->
