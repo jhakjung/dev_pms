@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사이트명</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 800px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #666;
+        }
+        .section-title {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.25em;
+            color: #555;
+            font-weight: 500;
+        }
+        .card__group .badge {
+            font-size: 0.85em;
+            background-color: #007bff;
+            color: white;
+        }
+        .card-header {
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        a.my_badge {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-4">
+        <!-- Row 1: Header with Site Name, Search Bar, and Write Button -->
+        <div class="row align-items-center">
+            <div class="col-3">
+                <h4>사이트명</h4>
+            </div>
+            <div class="col-6">
+                <input type="text" class="form-control" placeholder="Search...">
+            </div>
+            <div class="col-3 text-end">
+                <button class="btn btn-custom">작성</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Row 2: Sidebar and Content -->
+        <div class="row">
+            <!-- Sidebar (4 columns) -->
+            <div class="col-4">
+                <!-- Project Stage Card Section -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <i class="bi bi-folder-fill"></i> 프로젝트단계
+                    </div>
+                    <div class="card-body card__group">
+                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps01">계약 (4)</a></span>
+                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps02">착수 (7)</a></span>
+                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps03">현장조사/분석 (18)</a></span>
+                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps04">상세설계/변경 (13)</a></span>
+                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps05">제작/납품 (3)</a></span>
+                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps06">설치/연동 (1)</a></span>
+                        <span class="fs-7 badge badge__blue m-1"><a class="my_badge" href="https://wirye.wedata.co.kr/?project_state=ps07">시험/시운전 (1)</a></span>
+                    </div>
+                </div>
+
+                <!-- Additional cards for other sections can be added similarly -->
+            </div>
+
+            <!-- Content Area (8 columns) -->
+            <div class="col-8">
+                <div class="content">
+                    <!-- Content goes here -->
+                    <h2>콘텐츠 제목</h2>
+                    <p>여기에 콘텐츠 내용이 표시됩니다. 이 영역에 주요 정보를 입력하십시오.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <div class="footer">
+            &copy; Company
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
